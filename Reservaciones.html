@@ -15,37 +15,39 @@
                 <a href="index.html"><img src="imagenes/Logo Sitio Web.png" alt="Logo Oro Mexicano"></a>
             </td>
             <td>
-                <h1>Contacto y Reservaciones</h1>
+                <h1>Reservaciones</h1>
             </td>
         </tr>
     </table>
     <p>Tus Datos De Contacto</p>
-    <form action="index.html" method="post">
-        <label>Nombre:</label>
-        <input type="text" name="" value=""><br>
-        <label>Apellidos:</label>
-        <input type="text" name="" value=""><br>
-        <label>Edad:</label>
-        <input type="text" name="" value=""><br>
-        <label>Email:</label>
-        <input type="text" name="" value=""><br>
-        <input type="submit" name="">
-    </form>
+    <label>Nombre:</label><br>
+    <input type="text" name="" value=""><br>
+    <label>Apellidos:</label><br>
+    <input type="text" name="" value=""><br>
+    <label>Edad:</label><br>
+    <input type="text" name="" value=""><br>
+    <label>Email:</label><br>
+    <input type="text" name="" value=""><br>
     <br>
-    <p>Comentarios</p>
-    <textarea name="textarea" rows="10" cols="50">Escribe algo</textarea>
     <input type="submit" name="">
     <br>
-    <input type="radio">
-    <br>
-    <input type="checkbox">
-    <br>
-    <label for="Reservaciones">Reserva</label>
-    <select name="Reservaciones" id="Reserva">
-        <option value="Dia">Día</option>
-        <option value="Sucursal">Sucursal</option>
-        <option value="Menú">¿Qué quieres comer?</option>
+    <hr size="2" noshade>
+    <br><label for="Pedidos">Elige Una Opción</label>
+    <select name="Pedidos" id="Pedidos">
+        <option value="Domicilio">A domicilio</option>
+        <option value="Sucursal">En Sucursal</option>
     </select>
+    <br>
+    <p>Detalles De Tu Reservación</p>
+    <textarea name="textarea" rows="10" cols="50">Escribe algo</textarea> <br>
+    <button id="clear">Limpiar</button> <input type="submit" name="">
+    <br>
+    <hr size="2" noshade>
+    <p>Propina Para El Restaurante <input type="checkbox"> </p>
+    <p>Aceptar Términos y Condiciones <input type="radio"> </p> <br>
+    <form action="index.html">
+        <input type="submit" name="">
+    </form>
 </body>
 
 </html>
