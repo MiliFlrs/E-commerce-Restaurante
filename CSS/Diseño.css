@@ -1,0 +1,27 @@
+body {
+    background-color: #937DC2;
+    font-family: Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    font-size: medium;
+    border: 5px;
+}
+
+.circular {
+    border-radius: 100%;
+    text-align: center;
+}
+
+#heading {
+    color: orange;
+    font-size: xx-large;
+}
